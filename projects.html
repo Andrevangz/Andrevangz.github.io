@@ -1,0 +1,291 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Explore our projects and portfolio." />
+  <meta name="author" content="Your Name" />
+  <title>Projects - My Portfolio</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS -->
+  <link href="/css/styles.css" rel="stylesheet" />
+  <!-- Additional CSS -->
+  <link href="/css/projects.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <style>
+    /* Custom styles for the navbar */
+    .navbar {
+      background-color: #555;
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    /*
+    .navbar a:hover {
+      background-color: #5516b4;
+    }
+    */
+  </style>
+</head>
+  <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+           <!-- Navigation-->       
+
+            <nav class="navbar a navbar-expand-lg navbar-light bg-white py-3">
+
+                <div class="container-sm px5">         
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>--> 
+                        </ul>                      
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container px-5 my-5">
+              <div class="text-center mb-5">
+                  <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">My projects</span></h1>
+              </div>
+              <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8"> </div>
+              </div>
+            </div>
+            
+            
+
+
+<section><!-- INICIO conteudo portifolio -->
+  <div class="container">
+        
+        <div class="flex-item"><!--bloco RPA-->
+          <div class="content">
+            <h2>Automation [RPA]  </h2>
+              <p>Esta automação, desenvolvida em Python, lê arquivos Excel, processa os dados para extrair 
+                informações cruciais sobre vendas. O objetivo é gerar um relatório que é apresentado em um 
+                documento PDF. 
+                Este relatório é então salvo na área de trabalho do usuário, dentro de uma pasta específica.
+              </p>
+          </div>
+          
+          <img src="img/rpa.jpg" alt="rpa" class="trigger-image" width="400" height="300" onclick="openCarousel(0)">
+        </div><!--FIM bloco RPA-->
+        
+
+        
+
+        <div class="flex-item"><!--bloco ML-->
+          <div class="content">
+            <h2>Previsão do dólar [Machine Learning] </h2>
+              <p>
+                Em resumo, treinado com dados históricos, o código implementa um 
+                aplicativo para prever o valor do dólar. Ele utiliza a biblioteca 
+                Tkinter para a interface gráfica e a biblioteca Scikit-learn para 
+                o modelo de aprendizado de máquina. É interessante notar que este 
+                aplicativo pode ser aplicado em várias áreas, como previsão de aumento 
+                de custos, vendas e estoque.
+              </p>
+
+          </div>
+           <img src="img/ml.jpg" alt="ml" class="trigger-image" width="400" height="300" onclick="openCarousel(1)">                                   
+        </div><!--FIM bloco ML-->
+
+    
+
+    <div class="flex-item"><!--bloco SaaS-->
+      <div class="content">
+        <h2>SaaS [Software as a Service]</h2>
+            <p>
+            É um modelo que hospeda e gerencia softwares remotamente, permitindo acesso 
+            via internet por meio de assinaturas. Isso reduz custos e facilita a implementação, 
+            com provedores responsáveis pela manutenção e segurança.
+            </p>         
+        </div>
+          <img src="img/saas.jpg" alt="saas" class="trigger-image" width="400" height="300" onclick="openCarousel(2)">                                                          
+      </div><!--FIM bloco SaaS-->
+
+    
+
+    
+        <!--bloco 1 a ser adicioniando-->
+    <!--
+    <div class="flex-item">
+      <div class="content">
+        <h2>Artistic Expression</h2>
+        <p>Immerse yourself in the world of art through this curated collection of artistic photographs. Each piece represents unique perspectives and creative vision.</p>
+      </div>
+      <img src="image4.jpg" alt="Artistic preview" class="trigger-image" width="400" height="300" onclick="openCarousel(3)">
+    </div>
+    -->
+
+    <!--FIM bloco 1 a ser adicioniando-->
+
+    <!--bloco 2 a ser adicioniando-->
+
+    <!--
+
+    <div class="flex-item">
+      <div class="content">
+        <h2>Architectural Marvels</h2>
+        <p>Witness the incredible achievements of human engineering and design through these architectural photographs. From historic buildings to modern structures.</p>
+      </div>
+      <img src="image5.jpg" alt="Architecture preview" class="trigger-image" width="400" height="300" onclick="openCarousel(4)">
+    </div>
+    </div>
+    -->
+
+   <!--FIM bloco 2 a ser adicioniando-->                             
+          
+        <div class="carousel-modal" id="carouselModal0" style="display: none;"><!--referente ao RPA--> 
+          <button class="close-btn" onclick="closeCarousel(0)">×</button>
+            <div class="carousel-container">
+              <div class="carousel-slide active">
+                <iframe width="800" height="500" 
+                        src="https://youtu.be/MP_IwMo4Xds"
+                        title="Automation RPA" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>             
+              </div>
+            </div>
+        </div><!--FIM referente ao RPA-->
+
+       
+
+      <div class="carousel-modal" id="carouselModal1" style="display: none;"><!--referente ao ML-->
+        <button class="close-btn" onclick="closeCarousel(1)">×</button>
+          <div class="carousel-container">
+            <div class="carousel-slide active">
+              <iframe width="800" height="500" 
+                      src="https://youtu.be/f7vwzbJRdW4" 
+                      title="ML - Previsão do Dólar" 
+                      frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+      </div> <!--FIM referente ao ML--> 
+
+      
+      <div class="carousel-modal" id="carouselModal2" style="display: none;"><!--referente ao SaaS-->
+        <button class="close-btn" onclick="closeCarousel(2)">×</button>
+          <div class="carousel-container">
+            <div class="carousel-slide active">
+              <iframe width="800" height="500" 
+                      src="https://www.youtube.com/embed/1s6iQcgk3es" 
+                      title="SaaS - Software as a Service" 
+                      frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div><!--FIM referente ao SaaS-->
+
+      <!--referente ao tema futuro-->
+      <!--
+
+      <div class="carousel-modal" id="carouselModal3">
+        <button class="close-btn" onclick="closeCarousel(3)">×</button>
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="art1.jpg" alt="Art piece 1" width="800" height="500">
+          </div>
+          <div class="carousel-slide">
+            <img src="art2.jpg" alt="Art piece 2" width="800" height="500">
+          </div>
+          <div class="carousel-slide">
+            <img src="art3.jpg" alt="Art piece 3" width="800" height="500">
+          </div>
+          <button class="carousel-btn prev" onclick="changeSlide(-1, 3)">❮</button>
+          <button class="carousel-btn next" onclick="changeSlide(1, 3)">❯</button>
+        </div>
+      </div>
+
+      <div class="carousel-modal" id="carouselModal4">
+        <button class="close-btn" onclick="closeCarousel(4)">×</button>
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="architecture1.jpg" alt="Architecture view 1" width="800" height="500">
+          </div>
+          <div class="carousel-slide">
+            <img src="architecture2.jpg" alt="Architecture view 2" width="800" height="500">
+          </div>
+          <div class="carousel-slide">
+            <img src="architecture3.jpg" alt="Architecture view 3" width="800" height="500">
+          </div>
+          <button class="carousel-btn prev" onclick="changeSlide(-1, 4)">❮</button>
+          <button class="carousel-btn next" onclick="changeSlide(1, 4)">❯</button>
+        </div>
+      </div> 
+    -->
+
+  </div>
+                             
+</section><!--fim conteudo portifolio-->
+
+<!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-primary">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                        <a class="btn btn-outline-primary btn-lg px-5 py-3 fs-6 fw-bolder" id="copyEmailBtn" onclick="copyEmail()">drexai.contact@gmail.com</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2024</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+    function copyEmail() {
+        const email = "drexai.contact@gmail.com";
+        navigator.clipboard.writeText(email).then(() => {
+            alert("Email copied to clipboard!");
+        }).catch(err => {
+            console.error("Failed to copy email: ", err);
+        });
+    }
+        </script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/projects.js"></script>
+        <!-- Link para o JS do Bootstrap e jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+``` 
