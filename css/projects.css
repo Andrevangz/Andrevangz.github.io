@@ -67,12 +67,18 @@
     align-items: center;
 }
 
+.carousel-container iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+/*
 .carousel-container {
     position: relative;
     width: 80%;
     max-width: 800px;
 }
-
+*/
 .carousel-slide {
     display: none;
     width: 100%;
